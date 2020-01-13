@@ -1,0 +1,863 @@
+
+
+
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+
+.main_screen{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	}
+.main_screen_product{
+
+}
+.main_screen_header{
+	background-color: black;
+	padding-top: 17px !important;
+	padding-bottom: 15px;
+}
+div.main_screen div.fe1{
+	background-color: black;
+}
+div.main_screen div.fe1 img{
+	display: block;
+	width: 100%;
+	opacity: 0.1;
+}
+div.main_screen div.fe2 img{
+	display: block;
+	width: 100%;
+	height: 105%;
+	opacity: 1;
+}
+div.main_screen div.fe2{
+	position: relative;
+}
+div.vert_elem{
+	position: absolute; 
+	top: 102%; 
+	left: 50%; 
+	z-index: 20;
+	opacity: 1;
+}
+div.main_w{
+	position: absolute;
+	top: 50%;
+	left: 90%;
+}
+.header{
+	position:absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 31px;
+}
+div.menu_sign span{
+	width: 43px;
+	height: 10px;
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: 'Proxima Nova';
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 27px;
+	text-transform: uppercase;
+	letter-spacing: 0.38px;
+}
+div.header div.menu a{
+	/* Style for "Home" */
+	width: 44px;
+	height: 10px;
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 27px;
+	text-transform: uppercase;
+	/* Text style for "Home" */
+	letter-spacing: 0.38px;
+	text-decoration: none;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+.menu_butt{
+	display: flex;
+	width: 35%;
+	padding-left: 72px;
+	align-items: center;
+}
+.submenu{
+width: 40%;	
+}
+.lang{
+display: flex;
+width: 25%;
+justify-content: flex-end;
+padding-right: 36px;
+}
+div.cont_info_header{
+	padding-right: 52px; 
+	position: relative;
+}
+div.info_header{
+	width: 200px;
+	height: 300px;
+	visibility: hidden;
+	position: absolute;
+	left: -115%;
+	background-image: url('../img/main_screen/info_block.png');
+	background-size: 100%;
+	background-position: -20% -50% ;
+	background-repeat: no-repeat;
+}
+div.info_header>span{
+	padding-left: 45px;
+opacity: 0.5;
+color: #bea67c;
+font-family: "Proxima Nova";
+font-size: 12px;
+font-weight: 700;
+line-height: 100px;
+text-transform: uppercase;
+/* Text style for "F, urnitur" */
+letter-spacing: 4.81px;
+}
+div.lang>div>img:hover{
+	cursor: pointer;
+
+}
+div.cont_info_header:hover div.info_header{
+	visibility:visible;
+}
+form.select_lang>select{
+	color: #ffffff;
+	background-color: black;
+	border: none;
+	opacity: 0.5;
+font-family: "Proxima Nova";
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+}
+button.learn_more {
+	color: #ffffff;
+font-family: "Proxima Nova";
+font-size: 14px;
+font-weight: 700;
+line-height: 69.97px;
+text-transform: uppercase;
+text-decoration: none;
+/* Text style for "learn more" */
+letter-spacing: 2.8px;
+background-color: 
+}
+div
+
+ div.main_mid_mid div.wooder {
+	
+	/* Style for "Wooder" */
+	width: 535px;
+	height: 69px;
+	color: #bea67c;
+	font-family: "Proxima Nova";
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 99.96px;
+	text-transform: uppercase;
+	/* Text style for "W, ooder" */
+	letter-spacing: 20.01px;
+}
+div.main_button{
+	margin-top: 72px;
+	margin-left: 4px;
+}
+div.main_button>a{
+	display: inline-block;
+	text-decoration: none;
+}
+div.main_button>a>div{
+	width: 302px;
+	height: 55px;
+	border: 2px solid #ffffff;
+	background-image: url(img/2-layers.png);
+	background-repeat: no-repeat;
+	position: relative; 
+	background-position: 76% 50%; 
+}
+div.main_button>a>div>span{
+	position: absolute;
+	top: 35%;
+	left: 28%;
+	color: #ffffff;
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+div.main_mid{
+	top: 35%;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+div.points{
+	margin-top: -45px;
+	flex-basis: 15%;
+}
+div.points>div{
+	display: flex;
+	flex-direction: column;
+	margin-left: 205px;
+	align-items: center;
+}
+div.points>div>a:first-of-type{
+	margin-top: 85px;
+}
+div.points>div>a:hover{
+	background-image: url('../img/main_screen/link_dot_act.png');
+}
+div.points>div>a
+{
+	margin: 20px;
+	height: 10px;
+	width: 10px;
+	background-image: url('../img/main_screen/link_dot_na.png');
+	background-repeat: no-repeat;
+}
+
+div.main_mid_right{
+	flex-basis: 15%;
+	margin-top: 19px;	
+}
+div.main_mid_right>img{
+	margin-left: 27px;
+}
+div.main_mid_mid{
+	display: flex;
+	flex-direction: column;
+}
+
+.mouse {
+	margin-top: 63px;
+	margin-left: 4px;
+}
+.l_arche{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.text_scroll{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+div.share{
+	position: absolute;
+	top: 100%;
+	left: 97%;
+}
+/* стили для контента*/
+
+div.content{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+div.bg_furn{
+	width: 1828px;
+	height: 960px;
+	position: absolute;
+	top: -5%;
+	left:20%;
+	z-index: 10;
+}
+div.bg_furn>img{
+	display: block;
+	width: 1828px !important;
+	height: 960px !important;
+}
+
+div.furniture
+{
+	margin-top: -40px;
+	display: flex;
+	flex-direction: row;
+
+	justify-content:center;
+	height: 769px;
+	align-items: center;
+}
+/*------------------text for content-------------*/
+div.furniture_text{
+	margin-top: 250px;
+	z-index: 20;
+}
+div.furn_header {
+	padding-left: 170px;
+		/* Style for "Furniture" */
+	background-image: url('../img/content/fig_6.png');
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	color: #010101;
+	font-family: "Proxima Nova";
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	/* Text style for "Furniture" */
+	letter-spacing: 3.36px;
+}
+div.furn_text{
+	margin-top: 13px;
+	padding-left: 170px;
+	width: 522px;
+	/* Style for "Furniture" */
+	background-image: url('../img/content/sq_17.png');
+	background-repeat: no-repeat;
+	background-position: 23% 18%;
+	color: #464646;
+	font-family: "Proxima Nova";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	/* Text style for "W, ooder u" */
+	letter-spacing: 0.38px;
+}
+div.text_products{
+	padding: 50px 350px;
+	font-family: "Proxima Nova";
+	text-align: justify;
+	margin-top: -150px;
+
+}
+div.furn_button>a{
+	display: inline-block; 
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 168px;
+}
+div.furn_button>a>div{
+	width: 302px;
+	height: 55px;
+	
+	background-image: url(../img/content/arch_brown.png);
+	background-repeat: no-repeat; position: relative;
+	background-position: 0% 65%; 
+}
+div.furn_button>a>div>span{
+	position: absolute;
+	top: 35%;
+	left: 0%;
+	color: black;
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+div.furniture>div>img{
+	width: 666px;
+	height: 397px; 
+	padding-left: 80px;
+}
+div.label_01{
+	margin-top: 55px;
+	height: 180px;
+	background-image: url(../img/content/sq_17_rot.png);
+	background-repeat: no-repeat;
+	background-position: 4% 100%;
+}
+div.label_01>img{
+		padding-left: 0px;
+}
+
+div.decor>div>img{
+	width: 666px;
+	height: 397px;
+	padding-left: 48px;
+}
+div.bg_decor{
+	width: 606px;
+	height: 116px;
+	position: absolute;
+	top: 50%;
+	left:-2%;
+	z-index: 10;
+}
+div.bg_decor>img{
+	display: block;
+	width: 606px !important;
+	height: 116px !important;
+}
+div.dec_text{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 460px;
+	margin-left: 80px;
+	margin-top: 200px;
+}
+div.decor_header{
+	padding-right: 151px;
+	width: 448px;
+	height: 33px;
+	color: #010101;
+	font-family: "Proxima Nova";
+	font-size: 48px;
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+	/* Text style for "Furniture" */
+	letter-spacing: 3.36px;
+	background-image: url('../img/content/fig_6.png');
+	background-repeat: no-repeat;
+	background-position: 109% 100%
+}
+div.decor_text{
+	padding-right: 151px;
+	margin-top: 31px;
+	text-align: right;	
+	width: 448px;
+	height: 64px;
+	color: #464646;
+	font-family: "Proxima Nova";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	background-image: url('../img/content/sq_17.png');
+	background-repeat: no-repeat;
+	background-position: 80% 20%;
+}
+
+div.decor
+{
+	margin-top: -95px;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	height: 769px;
+	align-items: center;
+	
+}
+div.decor_button_product{
+	margin-left: 208px;
+}
+div.decor_button>a{
+	display: inline-block; 
+	text-decoration: none;
+	margin-top: 20px; 
+}
+div.decor_button>a>div{
+	width: 302px;
+	height: 55px;
+	background-image: url(../img/content/arch_brown.png);
+	background-repeat: no-repeat; 
+	position: relative; background-position: 99% 65%; 
+}
+div.decor_button>a>div>span{
+	position: absolute;
+	top: 35%;
+	left: 47%;
+	color: black;
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+div.label_02{
+	margin-top: 55px;
+	height: 137px;
+	background-image: url(../img/content/sq_17_rot.png);
+	background-repeat: no-repeat;
+	background-position: 95% 100%;
+}
+div.label_02>img{
+		padding-left: 400px;
+}
+
+
+div.wiq{			/*style for WOODER IS QUALITY*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 17px;
+
+}
+div.wiq_header>span>span{
+	line-height: 60px;
+	letter-spacing: 1.2px;
+}
+div.wiq div.wiq_header{
+	width: 576px;
+	height: 83px;
+	background-image: url('../img/content/wiq_line.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: 50% 100%;
+}
+div.wiq div.wiq_header span{
+
+color: #000000;
+font-family: "Proxima Nova";
+font-size: 48px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "wooder ," */
+letter-spacing: 3.36px;
+
+
+}
+div.wiq div.wiq_text{
+	margin-top: 17px;
+	width: 545px;
+	height: 50px;
+	text-align: center;
+}
+div.wiq div.wiq_text span{
+	/* Style for "We create" */
+color: #636262;
+font-family: "Proxima Nova";
+font-size: 15px;
+font-weight: 400;
+line-height: 25.03px;
+}
+div.wiq div.carusel div.carusel_element div.carusel_pic{     /* style for carusel image*/
+	width: 243px;
+	height: 243px;
+	overflow: hidden;
+	border-radius: 121px;
+	background-image: url('../img/content/gibraltar_bench.png');
+	background-size: 365px;
+	background-position: 50% 50%;
+}
+div.carusel_pic{
+	border: 5px solid #e1e1e1;
+	padding: 10px;
+}
+div.carusel_sign{
+	width: 140px;
+	height: 43px;
+	background-image: url(../img/content/carusel_line.png);
+	background-repeat: no-repeat;
+	background-position: 46% 27%;
+	text-align: center;
+	
+	margin-left: 55px;
+	margin-top: 30px;
+}
+div.carusel_sign span{
+	/* Style for "Innovative" */
+width: 130px;
+height: 14px;
+color: #000000;
+font-family: "Proxima Nova";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+/* Text style for "Innovative" */
+letter-spacing: 0.4px;
+}
+div.wiq div.carusel div.carusel_element_2 div.carusel_pic{     /* style for carusel image*/
+	width: 243px;
+	height: 243px;
+	overflow: hidden;
+	border-radius: 121px;
+	background-image: url('../img/content/chair.png');
+	background-size: 450px;
+	background-position: 50% 50%;
+}
+div.wiq div.carusel div.carusel_element_3 div.carusel_pic{     /* style for carusel image*/
+	width: 243px;
+	height: 243px;
+	overflow: hidden;
+	border-radius: 121px;
+	background-image: url('../img/content/table.png');
+	background-size: 340px;
+	background-position: 50% 50%;
+}
+div.carusel {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-top: 85px;
+}
+div.carusel_pic{
+	position: relative;
+}
+div.carusel_pic a{
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	margin-left: -34px;
+	margin-top: -34px;
+}
+div.wiq div.carusel div.carusel_element_2{
+	margin: 0 105px;
+}
+
+
+/* __________________________________________Style for video____________________________________________ */
+div.video{
+	margin-top: 150px;
+	width: 100%;
+	height: 916px;
+	background-color: black;
+	overflow: hidden;
+}
+div.video>div{
+	position: relative;
+}
+div.video>div>img{   /* style for bg */
+	opacity: 0.1;
+	top: -280px;
+	position: absolute;
+}
+div.big_button{
+	position: absolute;
+	left: 45%;
+	top: 25%;
+	z-index: 20;
+}
+div.div_border{
+	/* Style for "Прямоуголь" */
+width: 1560px;
+height: 737px;
+border: 1px solid #bea67c;
+position: absolute;
+top:90px;
+left: 186px; 
+}
+div.video_text_container{
+	position: absolute;
+	width: 682px;
+	height: 338px; 
+	top: 306px;
+	left: 20%;
+}
+div.video_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+div.video_content div.video_header {
+	/* Style for "we Do the" */
+background-image: url('../img/video/video_line_long.png');
+background-repeat: no-repeat;
+background-position: 2% 25%;
+color: #bea67c;
+font-family: "Proxima Nova";
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+
+text-transform: uppercase;
+padding-left: 176px;
+padding-right: 20px;
+}
+
+div.video_content div.video_text {
+	/* Style for "This is a" */
+background-image: url('../img/video/video_line_short.png');
+background-repeat: no-repeat;
+background-position: 17% 11%;
+color: #bea67c;
+color: #ffffff;
+font-family: "Proxima Nova";
+font-size: 15px;
+font-weight: 400;
+text-align: left;
+padding-left: 176px;
+padding-right: 120px;
+
+margin-top: 40px;
+}
+div.video_button{
+	margin-top: 60px;
+	margin-left: 182px;
+}
+div.video_button a {
+	display: inline-block;
+	text-decoration: none;
+}
+div.video_button a>div{
+	width: 302px;
+	height: 55px;
+	border: 2px solid #ffffff; 
+	background-image: url(../img/video/play_button.png);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: 17% 50%; 
+}
+div.video_button a>div>span{
+	position: absolute;
+	top: 35%;
+	left: 28%;
+	color: #ffffff;
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+/*_____________________________style for about________________*/
+div.about{
+	width: 100%;
+	height: 731px;
+	position: relative;
+}
+div.about_pic{
+	position: absolute;
+	top: 17%;
+	left: 20%;
+	width: 589px;
+	height: 401px;
+	background-image: url('../img/about/our_team.png');
+	background-size: 630px;
+	box-shadow:0 0 30px 2px; #000;
+}
+div.about_main_container{
+	position: absolute;
+	top: 29%;
+	left: 47%;
+	width: 512px;
+}
+div.about_content{
+	display: flex;
+	flex-direction: column;
+}
+div.about_header{
+	/* Style for "About us" */
+background-image: url('../img/content/fig_6.png');
+background-repeat: no-repeat;
+background-position: 0% 80%;
+height: 33px;
+color: #010101;
+font-family: "Proxima Nova";
+font-size: 48px;
+font-weight: 700;
+text-transform: uppercase;
+padding-left: 178px;
+margin-bottom:  40px;
+}
+
+div.about_text{
+	/* Style for "We are a t" */
+
+height: 64px;
+color: #464646;
+font-family: "Proxima Nova";
+font-size: 15px;
+font-weight: 400;
+padding-left: 178px;
+line-height: 25px;
+background-image: url('../img/content/sq_17.png');
+background-repeat: no-repeat;
+background-position: 22% 20%;
+}
+a.about_button{
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 10px; 
+}
+a.about_button > div{
+	width: 302px;
+	height: 55px;
+	
+	background-image: url(../img/content/arch_brown.png); 
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: 1% 66%; 
+	margin-left:  178px;
+
+}
+a.about_button > div > span{
+	position: absolute;
+	top: 35%;
+	color: black;
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+
+/*_______________FOOTER________________*/
+
+div.footer{
+	width: 100%;
+	height:69px;
+	overflow: hidden;
+	background-color: black;
+}
+div.footer>div{
+	position: relative;
+}
+div.footer>div>img{
+	opacity: 0.15;
+	width: 100%;
+}
+div.footer_content{
+	display: flex;
+	justify-content: space-around;
+	z-index: 20;
+	position: absolute;
+	top: 1%; left: 0%;
+	width: 100%;
+	height: 69px;
+}
+div.footer_rights{
+	/* Style for "© 2016 WOO" */
+
+color: #464646;
+font-family: "Proxima Nova";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-transform: uppercase;
+/* Text style for "© 2016 WOO" */
+letter-spacing: 0.38px;
+}
+div.footer_author{
+	/* Style for "Designed b" */
+width: 241px;
+height: 13px;
+color: #7d7d7d;
+font-family: "Proxima Nova";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+
+}
+div.footer_author>span{
+	color: #464646;
+letter-spacing: 0.38px;
+/* Text style for "Viacheslav" */
+letter-spacing: 0.38px;
+}
+div.footer_logo{
+	/* Style for "Wooder" */
+color: #ffffff;
+font-family: "Proxima Nova";
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+background-image: url('../img/footer/brown_line.png');
+background-repeat: no-repeat;
+background-position: 26% 25%;
+letter-spacing: 10.8px;
+}
+
+
+/*-------------style for control points-----------------*/
+

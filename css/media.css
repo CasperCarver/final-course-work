@@ -1,0 +1,95 @@
+@media screen  and (max-width: 1600px){
+
+	div.text_scroll{
+		display: none;
+	}
+	div.about_main_container{
+		top: 70%;
+	left: 20%;
+	}
+	div.about_pic{
+	position: absolute;
+	top: 9%;
+	left: 20%;
+	}
+
+}
+
+@media screen  and (max-width: 1366px){
+		div.mouse
+	{
+		display: none;
+	}
+	div.l_arche{
+		display: none;
+	}
+	div.furniture{
+		flex-direction: column;
+	}
+	div.bg_furn{
+		visibility: hidden;
+	}
+	div.label_01{
+		display: none;
+	}
+	div.furniture_text{
+	margin-top: 20px;
+	}
+	div.label_02{
+		display: none;
+	}
+	div.decor{
+		flex-direction: column-reverse;
+	}
+	div.dec_text{
+		margin-top: 0px;
+	}
+}
+
+
+@media screen  and (max-width: 1101px){
+	div.big_button{
+		display: none;
+	}
+	div.div_border{
+		display:none;
+	}
+	div.points{
+		display: none;
+	}
+	div.main_mid_right{
+		display: none;
+	}
+	div.menu>div:not(:first-of-type){
+		display: none;
+	}
+}
+@media screen  and (max-width: 954px){
+	div.carusel{
+		flex-direction: column;
+	}
+	div.carusel_element_2{
+		margin:40px 0 !important;
+	}
+	div.main_button{
+		margin-left:100px;
+	}
+	div.video_content div.video_header{
+		font-size: 24px;
+	}
+}
+@media screen  and (max-width: 824px){
+	div.lang{
+		display: none;
+	}
+	div.menu_sign{
+		display: none;
+	}
+	div.share{
+		top: 8%;
+		left: 95%;
+	}
+	div.vert_elem{
+		display: none;
+	}
+}
