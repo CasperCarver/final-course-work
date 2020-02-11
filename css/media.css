@@ -3,15 +3,7 @@
 	div.text_scroll{
 		display: none;
 	}
-	div.about_main_container{
-		top: 70%;
-	left: 20%;
-	}
-	div.about_pic{
-	position: absolute;
-	top: 9%;
-	left: 20%;
-	}
+	
 
 }
 
@@ -44,10 +36,44 @@
 	div.dec_text{
 		margin-top: 0px;
 	}
+
+	div.text_products{
+		padding: 50px ;
+		
+		
+		column-count: 2;
+		
+	
+	}
+	
 }
 
 
 @media screen  and (max-width: 1101px){
+	.about1>div{
+		flex-direction: column;
+		align-items: center;
+	}
+	.about_container1>.about_header{
+		background-image: none;
+	}
+	.about_container1>.about_text{
+		background-image: none;
+	}
+
+	.about_container1{
+		margin: 50px auto;
+	}
+	.about_text1{
+		text-align: justify;
+		padding-bottom: 30px;
+		column-count:1 !important;
+	}
+
+	div.about{
+		height: auto;
+	}
+
 	div.big_button{
 		display: none;
 	}
@@ -63,8 +89,87 @@
 	div.menu>div:not(:first-of-type){
 		display: none;
 	}
+	div.main_screen_contact_main_flex{
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	div.contact{
+		background-color: black;
+		background-image: none;
+		background-size: unset;
+		
+	}
+	div.contact_form{
+		width: 70%;
+	}
+	div.contact_text{
+		width: 70%;
+		margin-bottom: 30px;
+	}
+	div.about{
+		flex-direction: column;
+	}
 }
 @media screen  and (max-width: 954px){
+	div.main_mid_mid div.wooder{
+		font-size: 60px;
+		padding-left: 70px;
+	}
+	div.video_text_container{
+		display:none;
+		
+	}
+	div.big_button{
+		display: none;
+	}
+	div.mobileVideo div.video_header {
+		/* Style for "we Do the" */
+	
+	background-position: 2% 25%;
+	color: #bea67c;
+	font-family: "Proxima Nova";
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+	
+	text-transform: uppercase;
+	
+	}
+
+	div.mobileVideo div.video_text {
+		/* Style for "This is a" */
+	
+	color: #bea67c;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+	
+	margin-bottom: 40px;
+	margin-top: 40px;
+	}
+
+	.mobileVideo{
+		top:40%;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		z-index: 21;
+		width: 80%;
+		margin: 0 auto;
+		background-color: #f5f5f550 ;
+		border-radius: 10px;
+		padding: 100px 20px;
+	}
+	div.video_button{
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	
+	
 	div.carusel{
 		flex-direction: column;
 	}
@@ -76,6 +181,12 @@
 	}
 	div.video_content div.video_header{
 		font-size: 24px;
+	}
+	div.video_content div.video_header{
+		background-image: none;
+	}
+	div.video_content div.video_text{
+		background-image: none;
 	}
 }
 @media screen  and (max-width: 824px){
@@ -91,5 +202,24 @@
 	}
 	div.vert_elem{
 		display: none;
+	}
+	div.main_button{
+		display: none;
+	}
+	div.share{
+		top: 48%;
+		left: 85%;
+	}
+	div.about_pic{
+	
+	}
+	div.text_products{
+		padding: 50px ;
+		
+		
+		column-count: 1;
+	}
+	.about1>div{
+		width: 80% !important;
 	}
 }

@@ -23,7 +23,7 @@ var burst1 = new mojs.Burst({
     shape: "circle",
     radius: RADIUS,
     scale: { 1: 0 },
-    fill: ["#ff4338", "#00b3e3", "#3cd52e"],
+    fill: ["#bea67c", "#bea67c", "#bea67c"],
     duration: 2000,
     easing: "quad.out"
   }

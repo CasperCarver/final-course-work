@@ -42,7 +42,7 @@ div.vert_elem{
 	position: absolute; 
 	top: 102%; 
 	left: 50%; 
-	z-index: 20;
+	z-index: 1;
 	opacity: 1;
 }
 div.main_w{
@@ -161,7 +161,7 @@ background-color:
 }
 div
 
- div.main_mid_mid div.wooder {
+ div.wooder {
 	
 	/* Style for "Wooder" */
 	width: 535px;
@@ -301,7 +301,7 @@ div.furniture
 /*------------------text for content-------------*/
 div.furniture_text{
 	margin-top: 250px;
-	z-index: 20;
+	z-index: -1;
 }
 div.furn_header {
 	padding-left: 170px;
@@ -338,6 +338,9 @@ div.text_products{
 	font-family: "Proxima Nova";
 	text-align: justify;
 	margin-top: -150px;
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: black groove 1px;
 
 }
 div.furn_button>a{
@@ -615,6 +618,9 @@ div.video{
 	background-color: black;
 	overflow: hidden;
 }
+.mobileVideo{
+	display:none;
+}
 div.video>div{
 	position: relative;
 }
@@ -714,7 +720,10 @@ div.video_button a>div>span{
 div.about{
 	width: 100%;
 	height: 731px;
-	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 div.about_pic{
 	position: absolute;
@@ -726,10 +735,19 @@ div.about_pic{
 	background-size: 630px;
 	box-shadow:0 0 30px 2px; #000;
 }
+div.container_aboutpic {
+	width: 96%;
+	max-width: 960px;
+	 /* центрируем основной контейнер */
+	 margin-left: 50px;
+  }
+  div.container_aboutpic>img {
+	width: 100%; /* ширина картинки */
+	height: auto; /* высота картинки */
+  }
+
 div.about_main_container{
-	position: absolute;
-	top: 29%;
-	left: 47%;
+	margin-left:-70px;
 	width: 512px;
 }
 div.about_content{
@@ -791,6 +809,11 @@ a.about_button > div > span{
 	text-transform: uppercase;
 	letter-spacing: 2.8px;
 }
+
+
+
+
+
 
 /*_______________FOOTER________________*/
 

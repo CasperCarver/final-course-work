@@ -71,7 +71,7 @@ body {
   top: 400%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 20;
+  z-index: -1;
   width: 50vw;
   height: auto;
   display: flex;
@@ -95,6 +95,7 @@ body {
   transition-property: opacity;
   transition-duration: 0.5s;
   transition-delay: 0;
+  text-decoration: none;
 }
 
 .menuitem:after {
@@ -139,4 +140,5 @@ body {
   transition-property: all;
   transition-duration: 0.5s;
   transition-delay: 1s;
+  z-index: 20;
 }
